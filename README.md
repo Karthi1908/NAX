@@ -15,9 +15,10 @@ For conventional futures contracts such as WTI, the contract’s price will grad
 
 
 
-![NAX](https://user-images.githubusercontent.com/33004854/140518380-5c434c14-9495-45f5-9f50-f58515b39d21.png)
 
 
+
+![NAX ](https://user-images.githubusercontent.com/33004854/140522034-a97552c9-a425-4025-9886-32736148f6fc.png)
 
 NAX Prepetual(nPreps) uses modified Constant Function Market Maker (mCFMM) as a price discovery mechanism. https://medium.com/bollinger-investment-group/constant-function-market-makers-defis-zero-to-one-innovation-968f77022159
 
