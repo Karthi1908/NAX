@@ -18,10 +18,11 @@ NAX Prepetual(nPreps) uses modified Constant Function Market Maker (mCFMM) as a 
 nPreps use the constant product function  X * Y = K ( same as Uniswap). However for nPerps, there will be no swap of assets.
 
 
+							
+	Actions	Quantity trades	X	Y	K	Price per contract	
+	Initial State		100.000	 70,000 	 7,000,000 	 700 	
+![image](https://user-images.githubusercontent.com/33004854/140507423-5f217d86-d0a5-4ae6-a234-135f0d8915f0.png)
 
-Actions	Quantity trades	X	Y	K	Price per contract
-Initial State		100.000	 70,000 	 7,000,000 	 700 
-![image](https://user-images.githubusercontent.com/33004854/140507310-c437ebdd-3208-4b23-a021-8ea131373994.png)
 
 
 
