@@ -15,13 +15,20 @@ For conventional futures contracts such as WTI, the contract’s price will grad
 
 NAX Prepetual(nPreps) uses modified Constant Function Market Maker (mCFMM) as a price discovery mechanism. https://medium.com/bollinger-investment-group/constant-function-market-makers-defis-zero-to-one-innovation-968f77022159
 
+
+
+
+
+
+
+
+
 nPreps use the constant product function  X * Y = K ( same as Uniswap). However for nPerps, there will be no swap of assets.
 
 
 							
 							
-	Actions	Quantity trades	X	Y	K	Price per contract	
-	Initial State		100.000	 70,000 	 7,000,000 	 700 	
+
 							
 ![image](https://user-images.githubusercontent.com/33004854/140507647-1de190cb-39b0-4c38-8b5c-a89133f88946.png)
 
@@ -29,9 +36,7 @@ nPreps use the constant product function  X * Y = K ( same as Uniswap). However 
 
 
 							
-	Actions	Quantity trades	X	Y	K	Price per contract	
-	Initial State		100.000	 70,000 	 7,000,000 	 700 	
-	Alice buys 1000 tez worth contracts	1.4085	98.5915	 71,000 	 7,000,000 	 720 	
+
 							
 ![image](https://user-images.githubusercontent.com/33004854/140507692-cf231079-2d53-4718-b68c-4a643b6aad55.png)
 
@@ -39,33 +44,21 @@ nPreps use the constant product function  X * Y = K ( same as Uniswap). However 
 
 							
 							
-	Actions	Quantity trades	X	Y	K	Price per contract	
-	Initial State		100.000	 70,000 	 7,000,000 	 700 	
-	Alice buys 1000 tez worth contracts	1.4085	98.5915	 71,000 	 7,000,000 	 720 	
-	Bob buys 1000 tez worth contracts	1.3693	97.2222	 72,000 	 7,000,000 	 741 	
+
 							
 ![image](https://user-images.githubusercontent.com/33004854/140507754-9d912fe7-4d6d-4cd7-9bab-ff64e4d39bc7.png)
 
 
 
 							
-	Actions	Quantity trades	X	Y	K	Price per contract	
-	Initial State		100.000	 70,000 	 7,000,000 	 700 	
-	Alice buys 1000 tez worth contracts	1.4085	98.5915	 71,000 	 7,000,000 	 720 	
-	Bob buys 1000 tez worth contracts	1.3693	97.2222	 72,000 	 7,000,000 	 741 	
-	Alice squares off her trade	-1.4085	98.6307	 70,972 	 7,000,000 	 720 	
+
 							
 ![image](https://user-images.githubusercontent.com/33004854/140507974-e1537d77-88cd-44e3-8a19-f697edcedbb1.png)
 
 
 
 							
-	Actions	Quantity trades	X	Y	K	Price per contract	
-	Initial State		100.000	 70,000 	 7,000,000 	 700 	
-	Alice buys 1000 tez worth contracts	1.4085	98.5915	 71,000 	 7,000,000 	 720 	
-	Bob buys 1000 tez worth contracts	1.3693	97.2222	 72,000 	 7,000,000 	 741 	
-	Alice squares off her trade	-1.4085	98.6307	 70,972 	 7,000,000 	 720 	
-	Bob squares off his trade	-1.3693	100.0000	 70,000 	 7,000,000 	 700 	
+
 							
 ![image](https://user-images.githubusercontent.com/33004854/140508016-0e4e5919-44b7-45c3-9633-fa064483d888.png)
 
