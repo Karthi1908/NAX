@@ -52,6 +52,9 @@ NAX smart contract actually consists of three main components:
 2. Ledger
 3. Market Maker
 
+
+![NAX ](https://user-images.githubusercontent.com/33004854/140522034-a97552c9-a425-4025-9886-32736148f6fc.png)
+
 ### Vault
 
 Vault stores all the tezos of all users deposits in the single place. Vault will act as a multi-sig contract for high value transactions.
@@ -67,12 +70,6 @@ Ledger smartcontract deals with following
 4. It also performs the funding operations to align the Mark price and market price
 
 Ledger receives the Market prices from the oracle and it can use either mark price or market price for the MTM and Margin calculation. 
-
-
-
-
-
-![NAX ](https://user-images.githubusercontent.com/33004854/140522034-a97552c9-a425-4025-9886-32736148f6fc.png)
 
 NAX Prepetual(nPreps) uses modified Constant Function Market Maker (mCFMM) as a price discovery mechanism. https://medium.com/bollinger-investment-group/constant-function-market-makers-defis-zero-to-one-innovation-968f77022159
 
