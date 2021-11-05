@@ -13,15 +13,13 @@ For conventional futures contracts such as WTI, the contract’s price will grad
 
 ## How NAX works
 
+
+
+![NAX](https://user-images.githubusercontent.com/33004854/140518380-5c434c14-9495-45f5-9f50-f58515b39d21.png)
+
+
+
 NAX Prepetual(nPreps) uses modified Constant Function Market Maker (mCFMM) as a price discovery mechanism. https://medium.com/bollinger-investment-group/constant-function-market-makers-defis-zero-to-one-innovation-968f77022159
-
-
-
-
-
-
-
-
 
 nPreps use the constant product function  X * Y = K ( same as Uniswap). However for nPerps, there will be no swap of assets.
 
