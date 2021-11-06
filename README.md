@@ -5,19 +5,11 @@ NAX is an experimental exchange for trading perps on new/exotic assets with Tezo
 Due to its novel mCFMM price discovery mechanism, it doesn't require any liquidity pools or external liquidity.
 The main aim of the exchange is to provide exposure to exotic assets to the Tezos Hodlers without having to convert to other cryptocurrencies or trade-in new exchange.
 
-### Perpetual contracts (PERPs)
+### Why Perpetual contracts (PERPs)?
 
+With explosion of NFT market, it has become very hard to buy the NFTs during the drops. As most of the high value NFTs ( ex Beeple) are minted on Ethereum and its side chains, it has become very hard for the traders to trade as transaction fees eat much of their profits. So NAX decided to introduce the Perpetual contracts on Tezos for traders to get maximum advantage of their trading.
 Perpetual contracts are leveraged derivative products that enable users to take exposure ( buy or sell) in an asset without actually holding the asset.
 Perps are leverage product and its price is expected to correlate closely with the spot price. So traders can take more postions than on the spot market for given amount of money. 
-
-
-#### Leverage
-NAX sets levergae on following basis.
-
-1. max of 10x for crypto assets with top 10 market cap. 
-2. max of 5x for crypto assets in top 20 market cap and tezos
-3. max of 3x for NFT issued in Tezos and high liquid NFTs issued in Ethereum
-4. max of 2x for all other assets
 
 
 
