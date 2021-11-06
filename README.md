@@ -44,7 +44,7 @@ Ledger receives the Market prices from the oracle and it can use either mark pri
 ### mCFMM
 
 
-NAX Prepetual(nPreps) uses modified Constant Function Market Maker (mCFMM) as a price discovery mechanism. Additional info on Constant Function Market Maker can be found ![here](https://medium.com/bollinger-investment-group/constant-function-market-makers-defis-zero-to-one-innovation-968f77022159)
+NAX Prepetual(nPreps) uses modified Constant Function Market Maker (mCFMM) as a price discovery mechanism. Additional info on Constant Function Market Maker can be found <a href ="https://medium.com/bollinger-investment-group/constant-function-market-makers-defis-zero-to-one-innovation-968f77022159" target=_blank>here</a>
 
 nPreps use the constant product function  X * Y = K ( same as Uniswap). However for nPerps, there will be no swap of assets.
 
