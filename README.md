@@ -1,47 +1,24 @@
 # NAX - Neo Assets Exchange
 
-Neo Assets Exchange is decentralised exchange for trading the perpetual contracts on crypto and NFT assets and it is run on Tezos.
-NAX is experimental exchange for trading new assets such as perps on NFTs, Metaverse tokens and other crypto assets with Tezos as transaction/settlement currency.
-Due to its novel mCFMM price discovery mechanism, it doesnt require any liquidity pools or external liquidity,
-The main aim of the exchange is provide exposure to all assets to the Tezos Hodlers without having to convert to other crypto or trade in new exchange.
+Neo Assets Exchange (NAX) is a decentralised exchange for trading perpetual contracts on crypto and NFT assets.
+NAX is an experimental exchange for trading perps on new/exotic assets with Tezos as transaction/settlement currency.
+Due to its novel mCFMM price discovery mechanism, it doesn't require any liquidity pools or external liquidity.
+The main aim of the exchange is to provide exposure to exotic assets to the Tezos Hodlers without having to convert to other cryptocurrencies or trade-in new exchange.
 
 ### Perpetual contracts (PERPs)
 
-Perpetual contracts are leveraged derivative products enable user to take exposure ( buy or sell) in an asset without actually holding the asset.
-Since leverage is allowed in trading perps, users can hold more assets by depositing only the margin amount. 
-
+Perpetual contracts are leveraged derivative products that enable users to take exposure ( buy or sell) in an asset without actually holding the asset.
+Perps are leverage product and its price is expected to correlate closely with the spot price. So traders can take more postions than on the spot market for given amount of money. 
 
 
 #### Leverage
-Leverage is dependent on individual contracts . Standard process is to set leverage to
+NAX sets levergae on following basis.
 
 1. max of 10x for crypto assets with top 10 market cap. 
 2. max of 5x for crypto assets in top 20 market cap and tezos
 3. max of 3x for NFT issued in Tezos and high liquid NFTs issued in Ethereum
 4. max of 2x for all other assets
 
-#### Funding
-
-There are 2 different prices used for perpetual price discovery.
-
-1. Mark price : The price of the underlying as provided by market maker
-2. Market price: The price of the underlying as provided by oracle
-
-For conventional futures contracts such as WTI, the contract’s price will gradually converge with the underlying asset’s spot market price as the expiry date approaches. For a perpetual contract, to converge its price with the spot market, the most effective method used in the industry is “funding".
-
-Funding involves transfer of funds at funding rate from long nPerps holders to short nPerps holders if the Mark Price is greater than Market Price and transfer of funds at funding rate from short nPerps holders to long nPerps holders if the Market Price is greater than Mark Price  
-
-#### Margin
-
-There are 2 types of Margin.
- ##### 1. Initial Margin: 
- 
- This is amount required to open a position. Initial margin is calculated 100/leverage ratio.
- So 10x leverage trade would require 10% of trade amount to be posted as margin and similarly 5x leverage trade would require 20% of trade amount as initial margin.
- 
- ##### 2. Maintainence Margin:
-
-This is the amount to be held in account as margin for duration of the trade. If the margin amount falls below the maintainence margin, liquidation happens.
 
 
 ## Components
