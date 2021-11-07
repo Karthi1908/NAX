@@ -110,6 +110,15 @@ Traders themselves compensate each other.The Mark price is determined by the alg
 
 
 
+## Future Plan:
+
+1. NAX will continue to innovate the new DEFI products and has plans to introduce Futures and Options on crypto prices and NFT floor prices.
+2. NAX will also work to towards enabling private markets.
+
+## Current Status of the project:
+
+
+![image](https://user-images.githubusercontent.com/33004854/140653339-393468ed-cff3-4912-b351-a52800228372.png)
 
 
 
