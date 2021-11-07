@@ -1,5 +1,7 @@
 # NAX - Neo Assets Exchange
 
+smart contract : KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X
+
 Neo Assets Exchange (NAX) is a decentralised exchange for trading perpetual contracts on crypto and NFT assets.
 NAX is an experimental exchange for trading perps on new/exotic assets with Tezos as transaction/settlement currency.
 Due to its novel mCFMM price discovery mechanism, it doesn't require any liquidity pools or external liquidity.
@@ -36,9 +38,9 @@ Ledger smartcontract deals with following
 1. Record all the trade related transctions
 2. Calculate the MTM positions and re-calcaulate the balances of each account
 3. If any account doesnt meet the maintainence margin, it will perform the liquidation
-4. It also performs the funding operations to align the Mark price and market price
+4. It also performs the "Funding" operations to align the Mark price and market price
 
-Ledger receives the Market prices from the oracle and it can use either mark price or market price for the MTM and Margin calculation. 
+Ledger receives the Market prices from the oracle and it can use either mark price or market price for the MTM and Margin calculation. Mark price is provide by mCFMM
 
 
 ### mCFMM
@@ -48,7 +50,7 @@ NAX Prepetual(nPreps) uses modified Constant Function Market Maker (mCFMM) as a 
 
 nPreps use the constant product function  X * Y = K ( same as Uniswap). However for nPerps, there will be no swap of assets.
 
-
+Below is the example on how the mCFMM functions.
 							
 							
 
