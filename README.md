@@ -51,45 +51,58 @@ NAX Prepetual(nPreps) uses modified Constant Function Market Maker (mCFMM) as a 
 nPreps use the constant product function  X * Y = K ( same as Uniswap). However for nPerps, there will be no swap of assets.
 
 Below is the example on how the mCFMM functions.
-							
+
+Let us assume a Floor price of Beeple NFT is a 700Tez and  100 nPrep are  introduced for trading.
+
+ X = number of contracts = 100 
+ Y = equivalent  amount of tez = 700 * 100 = 70,000
+ Z = 100 * 70,000 = 7,000,000  Mark price for the contract = Y / X
+					
 							
 
 							
 ![image](https://user-images.githubusercontent.com/33004854/140507647-1de190cb-39b0-4c38-8b5c-a89133f88946.png)
 
 
+Alice sends a buy order for 1000 tez.
 
-
-							
-
+Y adds 1000 tez => 71,000 so X becomes 98.5915 to maintain  Z at a constant 7,000,000
+This results in Alice buying 1.4085 ( 100 - 98.5915) contracts for 1000 tez and the Mark Price moves to 720
 							
 ![image](https://user-images.githubusercontent.com/33004854/140507692-cf231079-2d53-4718-b68c-4a643b6aad55.png)
-
-
-
 							
-							
+Another user Bob sends a buy order for 1000 tez.	
+
+Y adds 1000 tez => 72,000 so X becomes 97.22222 to maintain  Z at a constant 7,000,000
+This results in Bob buying 1.3693 contracts for 1000 tez and the Mark Price moves to 740
 
 							
 ![image](https://user-images.githubusercontent.com/33004854/140507754-9d912fe7-4d6d-4cd7-9bab-ff64e4d39bc7.png)
 
 
-
-							
+Now Alice decides to close her long position of 1.4085 contracts and sends the order to NAX
+This results in following changes in CFMM
+X adds 1.4085 to become 98.6307 so Y becomes 70972 to maintain  Z at a constant 7,000,000
+Alice receives 1028 tez (change in Y => 72000 - 70972) and the Mark Price moves to 720.
+ALice made a profit of 28 tez
 
 							
 ![image](https://user-images.githubusercontent.com/33004854/140507974-e1537d77-88cd-44e3-8a19-f697edcedbb1.png)
 
 
-
-							
+Bob follows the suit to close his long position of 1.3693 contracts and sends the order to NAX
+This results in following changes in CFMM
+X adds 1.3693  to become 100 so Y becomes 7000 to maintain  Z at a constant 7,000,000
+Bob receives 972 tez (change in Y => 70972 - 70000) and the Mark Price moves to 700.
+Bob made a loss of 28 tez.							
 
 							
 ![image](https://user-images.githubusercontent.com/33004854/140508016-0e4e5919-44b7-45c3-9633-fa064483d888.png)
 
 
 
-
+As we can see from example, Alice's profit was compensated by Bob 's loss which for exhange to run , there is no need for additional liquidity or liquidity providers.
+Traders themselves compensate each other.The Mark price is determined by the algorithm. 
 
 
 
