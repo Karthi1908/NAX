@@ -1,15 +1,17 @@
 # NAX - Neo Assets Exchange
 
-smart contract : <a href="https://smartpy.io/explorer.html?address=KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X">KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X</a>
+#### TestNet Smart contract : <a href="https://smartpy.io/explorer.html?address=KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X">KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X</a>
 
 Neo Assets Exchange (NAX) is a decentralised exchange for trading perpetual contracts on crypto and NFT assets.
-NAX is an experimental exchange for trading perps on new/exotic assets with Tezos as transaction/settlement currency.
+NAX is an experimental exchange for trading perps on new/exotic assets with Tezos as settlement currency.
 Due to its novel mCFMM price discovery mechanism, it doesn't require any liquidity pools or external liquidity.
 The main aim of the exchange is to provide exposure to exotic assets to the Tezos Hodlers without having to convert to other cryptocurrencies or trade-in new exchange.
 
 ### Why Perpetual contracts (PERPs)?
 
-With explosion of NFT market, it has become very hard to buy the NFTs during the drops. As most of the high value NFTs ( ex Beeple) are minted on Ethereum and its side chains, it has become very hard for the traders to trade as transaction fees eat much of their profits. So NAX decided to introduce the Perpetual contracts on Tezos for traders to get maximum advantage of their trading.
+With explosion of NFT markets and traders chasing the high quality NFT, it has become difficult to buy NFT during the intial drop. As most of the high value NFTs ( ex Beeple) are minted on Ethereum and its side chains, it has become very hard for the traders to trade as eth transaction fees eat much of their profits. 
+
+So NAX decided to introduce the Perpetual contracts on Tezos for traders to get maximum advantage of their trading.
 Perpetual contracts are leveraged derivative products that enable users to take exposure ( buy or sell) in an asset without actually holding the asset.
 Perps are leverage product and its price is expected to correlate closely with the spot price. So traders can take more postions than on the spot market for given amount of money. 
 
@@ -114,6 +116,7 @@ Traders themselves compensate each other.The Mark price is determined by the alg
 
 1. NAX will continue to innovate the new DEFI products and has plans to introduce Futures and Options on crypto prices and NFT floor prices.
 2. NAX will also work to towards enabling private markets.
+3. NAX will also introduce support for stable coins settlement.
 
 ## Current Status of the project:
 
