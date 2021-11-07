@@ -117,8 +117,9 @@ Traders themselves compensate each other.The Mark price is determined by the alg
 
 ## Current Status of the project:
 
+					
+![image](https://user-images.githubusercontent.com/33004854/140653393-061e771a-d0d6-4f32-b752-e5b2b4a7c75f.png)
 
-![image](https://user-images.githubusercontent.com/33004854/140653339-393468ed-cff3-4912-b351-a52800228372.png)
 
 
 
