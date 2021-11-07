@@ -107,8 +107,8 @@ Bob made a loss of 28 tez.
 
 
 
-As we can see from example, Alice's profit was compensated by Bob 's loss which for exhange to run , there is no need for additional liquidity or liquidity providers.
-Traders themselves compensate each other.The Mark price is determined by the algorithm. 
+As we can see from example, Alice's profit was compensated by Bob's loss which means for the exchange to run , there is no need for additional liquidity or liquidity providers.
+Traders compensate each other profits and loss and the Mark price is determined by the algorithm. 
 
 
 
