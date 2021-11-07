@@ -55,8 +55,12 @@ Below is the example on how the mCFMM functions.
 Let us assume a Floor price of Beeple NFT is a 700Tez and  100 nPrep are  introduced for trading.
 
  X = number of contracts = 100 
+ 
  Y = equivalent  amount of tez = 700 * 100 = 70,000
- Z = 100 * 70,000 = 7,000,000  Mark price for the contract = Y / X
+ 
+ Z = 100 * 70,000 = 7,000,000  
+ 
+ Mark price for the contract = Y / X
 					
 							
 
