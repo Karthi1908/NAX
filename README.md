@@ -124,6 +124,19 @@ Traders compensate each other profits and loss and the Mark price is determined 
 ![image](https://user-images.githubusercontent.com/33004854/140653393-061e771a-d0d6-4f32-b752-e5b2b4a7c75f.png)
 
 
+## Test Case Snapshot - Smartpy explorer
+
+![image](https://user-images.githubusercontent.com/33004854/140674248-82d24cf4-1de3-4baf-9291-94ee6190fc3d.png)
+
+
+![image](https://user-images.githubusercontent.com/33004854/140674327-67ec0d08-444b-4760-8137-105b2aec6c34.png)
+
+
+![image](https://user-images.githubusercontent.com/33004854/140674472-ed4c2c77-ae4f-4472-9a57-05289a4a37b3.png)
+
+![image](https://user-images.githubusercontent.com/33004854/140674552-232f74a4-20ce-490e-b544-5f6f1f477109.png)
+
+
 
 
 
