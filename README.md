@@ -1,6 +1,9 @@
 # NAX - Neo Assets Exchange
 
-#### TestNet Smart contract : <a href="https://smartpy.io/explorer.html?address=KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X">KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X</a>
+
+#### TestNet Smart contract v0.2: <a href="https://smartpy.io/explorer.html?address=KT1UFrBkUqxd2jxsCfxQnKapqRmCSSkdQ8LG">KT1UFrBkUqxd2jxsCfxQnKapqRmCSSkdQ8LG</a>
+
+#### TestNet Smart contract v0.1: <a href="https://smartpy.io/explorer.html?address=KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X">KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X</a>
 
 Neo Assets Exchange (NAX) is a decentralised exchange for trading perpetual contracts on crypto and NFT assets.
 NAX is an experimental exchange for trading perps on new/exotic assets with Tezos as settlement currency.
