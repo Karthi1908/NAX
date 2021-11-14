@@ -1,6 +1,8 @@
 # NAX - Neo Assets Exchange
 
 
+### Demo video <a href="https://youtu.be/zuxGEAcrxOI">Youtube</a>
+
 #### TestNet Smart contract v0.2: <a href="https://smartpy.io/explorer.html?address=KT1UFrBkUqxd2jxsCfxQnKapqRmCSSkdQ8LG">KT1UFrBkUqxd2jxsCfxQnKapqRmCSSkdQ8LG</a>
 
 #### TestNet Smart contract v0.1: <a href="https://smartpy.io/explorer.html?address=KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X">KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X</a>
