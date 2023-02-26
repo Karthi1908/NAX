@@ -7,7 +7,7 @@
 
 #### TestNet Smart contract v0.1: <a href="https://smartpy.io/explorer.html?address=KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X">KT1MpgKoT5L32ngsPJgjE9fptVgBE9XAUc6X</a>
 
-Neo Assets Exchange (NAX) is a decentralised exchange for trading perpetual contracts on crypto and NFT assets.
+Neo Assets Exchange (NAX) is a decentralised exchange for trading perpetual contracts on crypto and NFT like assets.
 NAX is an experimental exchange for trading perps on new/exotic assets with Tezos as settlement currency.
 Due to its novel mCFMM price discovery mechanism, it doesn't require any liquidity pools or external liquidity.
 The main aim of the exchange is to provide exposure to exotic assets to the Tezos Hodlers without having to convert to other cryptocurrencies or trade-in new exchange.
